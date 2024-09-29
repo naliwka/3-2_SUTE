@@ -1,0 +1,66 @@
+/* Загальні стилі для всього документу */
+body {
+    background: linear-gradient(to bottom, #add8e6, #9370db); /* Градиентный фон от светло-синего к фиолетовому */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Разрешить элементам внутри body распределиться внутри флекс-контейнера */
+    justify-content: space-between; /* Распределить элементы на экране */
+}
+
+  /* Добавляем изображение на фон */
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1224409838105268396/1229065946258346056/photo_5251255109374042216_y.jpg?ex=662e53dc&is=661bdedc&hm=756534b5a004e298d7685d5f4ca188e9be559f957ba3054fa3f112c2686e2e71&); /* Путь к вашому изображению */
+    background-size: cover; /* Масштабирование изображения, щоб воно повністю заповнило фон */
+    background-position: right; /* Расположение изображения справа */
+    background-repeat: no-repeat; /* Предотвращаем повторение изображения */
+}
+
+  /* Стилі для заголовків */
+h1, h2 {
+    color: #333;
+}
+
+  /* Стилі для форми зв'язку */
+form {
+    width: 320px; /* Збільшено ширину форми */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+textarea,
+select {
+    width: 90%;
+    padding: 12px; /* Збільшено відступ у полях вводу */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0056b3; /* Більш темний синій колір кнопки */
+    color: #fff;
+    padding: 15px 30px; /* Збільшено розмір тексту на кнопці */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Збільшено розмір шрифту на кнопці */
+    font-weight: bold; /* Жирний шрифт для тексту на кнопці */
+}
+
+input[type="submit"]:hover {
+    background-color: #003c80; /* Ще більш темний синій колір при наведенні курсору */
+}
+
+h2 {
+    margin: 20px;
+    padding: 20px;
+}
